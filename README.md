@@ -15,3 +15,7 @@ Features
 Compatibility
 
 While the application was initially tested with AdaOne Adaxis software, it is designed to be adaptable and can be used with other path generation software that produces similar welding programs.
+
+Below is the User interface of the application. 
+![User INterface](Docs/appUI.JPG)
+
