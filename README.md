@@ -36,9 +36,9 @@ While the application was initially tested with AdaOne Adaxis software, it is de
 
 **Input the Required Paths:**
 
--Input Path: Enter the folder path that contains the AdaAxis-generated program in the "Input Path" section.
+-Source Directory: Enter the folder path that contains the AdaAxis-generated program in the "Source Directory" section.
 
--Output Path: Enter the folder path where the output files should be written in the "Output Path" section.
+-Target Directory: Enter the folder path where the output files should be written in the "Target Directory" section.
 
 **Enter the JOB Number:**
 
