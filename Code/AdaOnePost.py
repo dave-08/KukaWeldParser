@@ -26,6 +26,7 @@ class file_conversion():
         self.mainFileName = ''
 
     def read_file(self,path,fileToRead_src):
+        """read the files and store the date in read lines array"""
         
         file2read_src = open(path+'\\'+fileToRead_src+'.src','r')
         self.read_lines = []
@@ -34,6 +35,7 @@ class file_conversion():
             self.read_lines.append(line)
             
     def write_file(self,path,fileNameToWrite): 
+        """It detects ;process_on markers to initiate the ARCON command and ;process_off markers for the ARCOFF command. All lines between these markers are converted into ARCSWI instructions. Identifies changes in velocity within the welding program and generates specific weld data entries in the .DAT file accordingly."""
 
         fileToWrite_src = open(path+"\\"+fileNameToWrite+".src","w+")
         fileToWrite_dat = open(path+"\\"+fileNameToWrite+".dat","w+")
@@ -123,7 +125,7 @@ class file_conversion():
                 break
 
     def list_Files(self,pathSource):
-
+        """List the files inside the folder and store it in a list """
         path = pathSource
         try:
             self.files= os.listdir(path)
@@ -141,6 +143,7 @@ class file_conversion():
                 self.layer_list.append(name)
         
     def check_files(self,files):
+        """Checks if the folder path given contains valid files  i.e .src and .dat files"""
         self.CFinvalid = False
         for self.cf in files[1:int((len(self.files)))]: 
             if ".src" in self.cf or ".dat" in self.cf:
@@ -234,6 +237,8 @@ class file_conversion():
         return os.path.join(base_path, relative_path)
 
     def gui_parameter(self):
+    
+        #Make your modification here to do any chnages in the GUI 
 
         gui = tk.Tk(className="AdaOne Program Converter",)
         gui.minsize(width=600,height=600)
