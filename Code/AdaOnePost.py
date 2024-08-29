@@ -243,9 +243,9 @@ class file_conversion():
         gui = tk.Tk(className="AdaOne Program Converter",)
         gui.minsize(width=600,height=600)
         gui.maxsize(width=600,height=600)
-        icoImg = self.resource_path("app\\asset\\logo.ico")
+        icoImg = self.resource_path("code\\asset\\logo.ico")
         gui.iconbitmap(icoImg)
-        imgpath = self.resource_path("app\\asset\\bg.png")
+        imgpath = self.resource_path("code\\asset\\bg.png")
         bgImg = tk.PhotoImage(file =imgpath)
 
         tk.Label(gui,image = bgImg ).pack()
