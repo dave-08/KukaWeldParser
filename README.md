@@ -50,5 +50,5 @@ While the application was initially tested with AdaOne Adaxis software, it is de
 
 **Success:**
 
-Voilà! If everything is right, you'll have your output files ready in the specified output folder.
+Voilà! If everything is right, you'll have your output files ready in the specified target folder.
 
