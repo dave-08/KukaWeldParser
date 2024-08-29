@@ -26,7 +26,7 @@ While the application was initially tested with AdaOne Adaxis software, it is de
 
 -The app has been tested with AdaOne software.
 
--Use the POST file available in the docs folder of this repository to generate the program in AdaAxis.
+-Use the POST file available in the docs folder (WAAM_PP.adxp) of this repository to generate the program in AdaAxis.
 
 **Run the Application:**
 
