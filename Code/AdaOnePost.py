@@ -8,7 +8,6 @@ Description: This application is designed to convert WAAM (Wire Arc Additive Man
 Author: David Pareira
 Date: 28/08/2024
 Version: 0.2
-License: Not applicable
 Dependencies: The code generated is Valid for ATB compatible with KSS 8.6
 Usage Instructions: Run the Code and specify the input path, output path and job number which you wish you use for welding program. 
 
