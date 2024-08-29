@@ -18,7 +18,9 @@ While the application was initially tested with AdaOne Adaxis software, it is de
 
 **Below is the User interface of the application.**
 
-![User INterface](Docs/appUI.JPG)
+<p align="center">
+  <img src="Docs/appUI.JPG" alt="Application Interface" width="500"/>
+</p>
 
 <h2>How to Use the App</h2>
 
