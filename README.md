@@ -30,7 +30,7 @@ While the application was initially tested with AdaOne Adaxis software, it is de
 
 **Run the Application:**
 
--After generating the program in AdaAxis, run the application executable.
+-After generating the program in AdaAxis, run the application executable(Application\dist\KukaATBConvertor.exe).
 
 -The application interface will resemble the image provided above.
 
