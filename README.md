@@ -4,13 +4,13 @@ This application is designed to convert additive welding programs into KUKA-spec
 
 <h2>Features</h2>
 
--Program Conversion: The application converts general additive welding programs into instructions tailored for KUKA robotic systems, particularly for ArcTechBasic 3.4.2.
+**-Program Conversion:** The application converts general additive welding programs into instructions tailored for KUKA robotic systems, particularly for ArcTechBasic 3.4.2.
 
--Process Handling: It detects ;process_on markers to initiate the ARCON command and ;process_off markers for the ARCOFF command. All lines between these markers are converted into ARCSWI instructions.
+**-Process Handling:** It detects ;process_on markers to initiate the ARCON command and ;process_off markers for the ARCOFF command. All lines between these markers are converted into ARCSWI instructions.
 
--Velocity and Weld Data Management: The software identifies changes in velocity within the welding program and generates specific weld data entries in the .DAT file accordingly.
+**-Velocity and Weld Data Management:** The software identifies changes in velocity within the welding program and generates specific weld data entries in the .DAT file accordingly.
 
--User Input: The application allows users to input a job number, which is then automatically updated in the .DAT file.
+**-User Input:** The application allows users to input a job number, which is then automatically updated in the .DAT file.
 
 <h2>Compatibility</h2>  
 
@@ -38,13 +38,15 @@ While the application was initially tested with AdaOne Adaxis software, it is de
 
 **Input the Required Paths:**
 
--Source Directory: Enter the folder path that contains the AdaAxis-generated program in the "Source Directory" section.
+-Enter the folder path that contains the AdaAxis-generated program in the "Source Directory" section.
 
--Target Directory: Enter the folder path where the output files should be written in the "Target Directory" section.
+-Enter the folder path where the output files should be written in the "Target Directory" section.
 
-**Enter the JOB Number:**
+**Default Job Number:**
 
--In the "Job Number" section, specify the JOB number that contains the welding parameters.
+-You can set a default job number that will be used when a specific layer in AdaAxis has no job number or has a job number of 0.
+
+-In AdaAxis, set the job number for specific layers as needed. The software will use the layer-specific job number where it is provided, and the default job number where it is not.
 
 **Convert the Program:**
 
