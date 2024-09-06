@@ -248,7 +248,7 @@ class file_conversion():
     
         #Make your modification here to do any chnages in the GUI 
 
-        gui = tk.Tk(className="AdaOne Program Converter",)
+        gui = tk.Tk(className="KukaATBConverter",)
         gui.minsize(width=600,height=600)
         gui.maxsize(width=600,height=600)
         icoImg = self.resource_path("code\\asset\\logo.ico")
